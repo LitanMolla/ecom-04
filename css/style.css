@@ -1,0 +1,403 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Inter", serif;
+    scroll-behavior: smooth;
+}
+/* All Common CSS End */
+
+/* Nav Part Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2222222;
+}
+
+.nav-link{
+    font-size: 21px;
+    line-height: normal;
+    font-weight: normal;
+    margin: 0 20px;
+    color: #000;
+    transition: .5s;
+}
+
+.nav-link:hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+/* Nav Part End */
+
+
+/* Banner Part Start */
+#bannerPart{
+    margin-top: 100px;
+    margin-bottom: 42px;
+}
+
+.bannerLeft{
+    position: relative;
+    transition: .5s;
+}
+
+.bannerLeft:hover .bannerLeftOvrly{
+    opacity: 1;
+    visibility: visible;
+}
+
+.bannerLeftOvrly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.bannerLeftOvrly h1{
+    font-size: 56px;
+    line-height: normal;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.bannerLeftOvrly p{
+    font-size: 18px;
+    line-height: normal;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+button{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 14px;
+    border: 5px solid #fff;
+    background: none;
+    transition: .5s;
+}
+
+button:hover{
+    background: #fff;
+    color: #000;
+}
+
+.bannerRightItem{
+    position: relative;
+}
+
+.bannerRightItem:hover .bannerRightOverly{
+    visibility: visible;
+    opacity: 1;
+}
+
+.bannerRightOverly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.bannerRightOverly h1{
+    font-size: 25px;
+    line-height: normal;
+    font-weight: bold;
+    margin-top: 65px;
+}
+
+.bannerRightOverly p{
+    font-size: 18px;
+    line-height: normal;
+    font-weight: normal;
+    margin: 20px 0;
+}
+/* Banner Part End */
+
+
+/* Mens Part Start */
+#productPart{
+    background: #f0f0f0;
+    padding: 90px 0;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+}
+
+.productHeader h1{
+    font-size: 35px;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.productHeader p{
+    font-size: 14px;
+    line-height: normal;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.productItem:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.productItem{
+    background: #D9D9D9;
+    transition: .5s;
+}
+
+.productText h4{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.productText p{
+    font-size: 18px;
+}
+
+.star i{
+    color: #FFA92E;
+    margin-bottom: 28px;
+}
+
+.favcart{
+    gap: 20px;
+}
+
+.favcart i:hover{
+    color: red;
+}
+
+.favcart i{
+    font-size: 25px;
+    transition: .5s;
+}
+
+.productDescription{
+    padding: 14px 24px;
+}
+
+.mens,.womens{
+    margin-bottom: 90px;
+}
+/* Mens Part End */
+
+
+/* Expolre Part Start */
+#explorePart{
+    margin: 20px 0;
+}
+
+.exploreleft h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.exploreleft p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.exploreItem{
+    position: relative;
+}
+.exploreItem:hover .exploreOverly{
+    visibility: visible;
+    opacity: 1;
+}
+
+.exploreOverly{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    transition: .5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.exploreOverly h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.exploreOverly p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+/* Expolre Part End */
+
+
+/* Social Part Start */
+#socialPart{
+    background: #f0f0f0;
+    padding: 90px 0;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Social Part End */
+
+
+/* Footer Part Start */
+#footerPart{
+    background: #1E1E1E;
+    padding: 30px 0;
+}
+
+.footerLogo p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.footerMenu h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footerMenu ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.footerMenu ul li a:hover{
+    color: #ccc;
+}
+footer{
+    background: #000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p{
+    font-size: 14px;
+    color: #fff;
+}
+/* Footer Part End */
+
+
+/* Name Part Start */
+.sticky_name{
+    background: #ccc;
+    animation: alamin 1s;
+    }
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
+/* Name Part Start */
+/* Name Part End */
+
+
